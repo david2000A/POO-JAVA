@@ -13,9 +13,14 @@ public class Uso_plataforma {
     
         /* Paso 4)
             Acceder a las propiedades = nombre del objeto . propiedad
+                 System.out.println("Este coche tiene "+ Renault.ruedas + " ruedas");
+        
+            Acceder a las propuedades con private = 
+                para acceder se debe acceder por medio de un metodo
         */
-    
-        System.out.println("Este coche tiene "+ Renault.ruedas + " ruedas");
+       //  Renault.ruedas=3; <------ esto no puede suceder entonces tiene que estar modularizado
+       
+     
         
     }
 }

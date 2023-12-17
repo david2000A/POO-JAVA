@@ -7,11 +7,11 @@ public class Plataforma { // la plataforma es la clase: caracteristicas comunes 
     /*Paso 1)
     especificar las caracteristicas comunes de esa plataforma*/
     
-    int ruedas;
-    int largo;
-    int ancho;
-    int motor;
-    int peso;
+   private int ruedas; //private ayuda a que no se modifique desde otra clase
+   private int largo;
+   private int ancho;
+   private int motor;
+   private int peso;
     
 
     /*Paso 2)
@@ -27,5 +27,10 @@ public class Plataforma { // la plataforma es la clase: caracteristicas comunes 
     }
 
     /*Paso 3) crear la clase principal donde se usa esta clase*/
+    
+    /*solo desde esta clase puedo cambiar los valores de la plataforma
+      eso se llama modularización para eso se necesitan los modificadores
+      de acceso "private" "public" "protected"
+    */
 }
 
